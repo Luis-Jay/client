@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Name - Forteiz</title>
+    <link rel="stylesheet" href="productstyle.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <img src="images/logos.png" alt="Forteiz"> FORTEIZ
+        </div>
+        <div class="nav">
+            <a href="#">Services</a>
+            <a href="#">Products</a>
+            <a href="#">Become a Creator</a>
+            <a href="#">log in</a>
+            <div class="profile-pic"></div>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <div class="product-section">
+            <div class="product-image">
+                <img src="images/e171fc6e-b1ba-4074-a174-a79d1b736f63.jpg" alt="Product Image">
+            </div>
+            <div class="product-details">
+                <h1 class="product-title">Digital Templates invitation</h1>
+                <p class="product-description">Profit from digital goods with this customizable PLR bundle. Includes guides, sales copy, graphics, and promotional materials—perfect for marketers and entrepreneurs ready to launch fast.</p>
+                <div class="product-rating">★★★★★</div>
+                <div class="product-price">₱229</div>
+                <div class="action-buttons">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="buy-now" id="buyNowBtn">Buy it Now</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="reviews-section">
+            <h2 class="reviews-title">Reviews</h2>
+            
+            <div class="review">
+                <div class="reviewer-image">
+                    <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT4vnjgBkHWBf02YPUM5-XiPf3cHnG299DvuA6EFCtwxc_2ezfaMEyMR-99COQKK-WXRaRPO7bpAwQi9lY" alt="Reviewer">
+                </div>
+                <div class="review-content">
+                    <div class="reviewer-name">Anthony Edwards</div>
+                    <div class="review-text">The Digital book is great!</div>
+                </div>
+            </div>
+            
+            <div class="review">
+                <div class="reviewer-image">
+                    <img src="https://i.ytimg.com/vi/ftkNsrS9lo8/maxresdefault.jpg" alt="Reviewer">
+                </div>
+                <div class="review-content">
+                    <div class="reviewer-name">Naz Reid</div>
+                    <div class="review-text">Will buy again</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Payment Modal -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Pay with GCash</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            
+            <div style="text-align: center;">
+                <img src="https://brandlogos.net/wp-content/uploads/2024/01/gcash-logo_brandlogos.net_1awr8.png" alt="GCash Logo" class="gcash-logo">
+            </div>
+            
+            <form id="paymentForm" class="payment-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required placeholder="Juan Dela Cruz">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required placeholder="your@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required placeholder="09XX XXX XXXX">
+                </div>
+                
+                <button type="submit" class="payment-submit">Continue to GCash</button>
+            </form>
+            
+            <div id="paymentStatus" class="payment-status"></div>
+            
+            <div class="powered-by">
+                Powered by PayMongo
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="images/logos2.png" alt="Forteiz"> FORTEIZ
+        </div>
+        <div class="footer-text">
+            Forteiz is a business registered in the Philippines under the name<br>
+            Forteiz Web Solutions, with Company Registration No. CS2025XXXXX.
+        </div>
+        <div class="payment-methods">
+            <img src="https://brandlogos.net/wp-content/uploads/2011/08/mastercard-logo.png" alt="MasterCard">
+      <img src="https://brandlogos.net/wp-content/uploads/2024/01/gcash-logo_brandlogos.net_1awr8.png" alt="GCash">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/PayMaya_Logo.png" alt="Maya">
+        </div>
+    </div>
+
+    <script src="paymongo.js"></script>
+</body>
+</html>

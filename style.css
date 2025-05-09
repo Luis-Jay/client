@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: #f2f3f5;
+    color: #111;
+  }
+
+  header {
+    background-color: #111;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 0.95rem;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  .search-bar input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .product-card {
+    background: white;
+    border-radius: 16px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .product-info {
+    padding: 1rem;
+  }
+
+  .product-info h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .product-info p {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .creator {
+    color: green;
+    font-weight: 500;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .pagination button {
+    background: white;
+    border: 1px solid #111;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 0 0.25rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .pagination button.active {
+    background: #111;
+    color: white;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #111;
+    margin-top: 3rem;
+    padding: 2rem 1rem 3rem;
+    background-color: #f2f3f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  footer .logo {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #111;
+  }
+
+  .payment-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .payment-icons img {
+    height: 30px;
+  }
