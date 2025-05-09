@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": "Basic " + btoa("")
+                    "Authorization": "Basic " + btoa("sk_test_kggVXSBDUTfRAvTGvyReUEEr:")
                 },
                 body: JSON.stringify({
                     data: {
